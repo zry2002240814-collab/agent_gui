@@ -1,0 +1,11 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+
+# Preserve the five framework files checked by SHA-256 regression tests.
+agent_base.py -text
+device_controller.py -text
+requirements.txt -text
+run_tests.py -text
+test_runner.py -text

@@ -1,0 +1,32 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local task output and unrelated working files
+/output/
+/.tmp/
+*.log
+
+# Credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+/.aws/
+/.codex/
+/.agents/
+/.idea/
+/.vscode/
+
+# External Android packages are supplied separately
+*.apk
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
